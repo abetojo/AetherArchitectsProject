@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.fixedContainer{
+    width: 950px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#leftNav{
+    width: 30%;
+    padding: 0;
+    float: left;
+}
+
+#fixedPadding{
+    padding: 20px;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+}
+
+
